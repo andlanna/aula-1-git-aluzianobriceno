@@ -1,0 +1,17 @@
+Atividade 1- enviarem arquivo texto 
+
+Questão 1) Informe opropósito e os efeitos de cada um dos comandos git listados abaixo
+ a)Git init - ok 
+ b)Git clone - ok 
+ C)Git branch - lista todas as branches do repositório
+ d) Git checkout - migra pra outras branches, "anda pelas branches" 
+ E)Git fetch - Traz as alterações, que estão no repositório remoto, para o repositório local, traz o historico de alterações. 
+ f)Git pull - traz as alterações  do repositório remoto e faz o merge (incorpora) no repositório local 
+ g)Git add - adiciona todas as mudanças do executadas nos arquivos do diretório 
+ h)Git commit - abre o editor de texto padrão  para que você adicione a mensagem do commit 
+ i)Git push - transfere commits do repositorio local a um repositorio remoto 
+ 
+ Questão 2) Os comandos git pull e git fetch são muito parecidos, mas os resultados sobre o repositório são diferentes. Diferencie os comandos com base nos resultados produzidos por eles
+ 
+ git fetch - baixa todos os commits do repositorio remoto sem afetar o codigo local
+ git pull -  faz um git fecth seguido de um git merge
